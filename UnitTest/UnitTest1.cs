@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BilletLibrary;
+using System;
 
 namespace UnitTest
 {
@@ -10,7 +11,7 @@ namespace UnitTest
         public void TestBilName()
         {
             // Arrange
-            Bil bil = new Bil();
+            Bil bil = new Bil("1234", DateTime.Now);
 
             // Act
             string name = bil.Køretøj();
@@ -23,7 +24,7 @@ namespace UnitTest
         public void TestBilPrice()
         {
             // Arrange
-            Bil bil = new Bil();
+            Bil bil = new Bil("1234", DateTime.Now);
 
             // Act
             decimal price = bil.Pris();
@@ -36,7 +37,7 @@ namespace UnitTest
         public void TestMCName()
         {
             // Arrange
-            Motorcykel mc = new Motorcykel();
+            Motorcykel mc = new Motorcykel("1234", DateTime.Now);
 
             // Act
             string name = mc.Køretøj();
@@ -49,7 +50,7 @@ namespace UnitTest
         public void TestMCPrice()
         {
             // Arrange
-            Motorcykel mc = new Motorcykel();
+            Motorcykel mc = new Motorcykel("1234", DateTime.Now);
 
             // Act
             decimal price = mc.Pris();

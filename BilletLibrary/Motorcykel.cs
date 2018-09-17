@@ -4,14 +4,11 @@ using System.Text;
 
 namespace BilletLibrary
 {
-    public class Motorcykel
+    public class Motorcykel : Vehicle
     {
-        // Instance fields
-        private string _nummerplade;
-        private DateTime _dato;
 
         // Constructor
-        public Motorcykel()
+        public Motorcykel(string nummerplade, DateTime dato):base(nummerplade, dato)
         {
 
         }
@@ -22,7 +19,7 @@ namespace BilletLibrary
         /// Get price for vehicle
         /// </summary>
         /// <returns></returns>
-        public decimal Pris()
+        public override decimal Pris()
         {
             return 125;
         }
@@ -31,22 +28,10 @@ namespace BilletLibrary
         /// Get vehicle type name
         /// </summary>
         /// <returns></returns>
-        public string Køretøj()
+        public override string Køretøj()
         {
             return "MC";
         }
 
-        // Backing fields
-        public string Nummberplade
-        {
-            get { return _nummerplade; }
-            set { _nummerplade = value; }
-        }
-
-        public DateTime Dato
-        {
-            get { return _dato; }
-            set { _dato = value; }
-        }
     }
 }
