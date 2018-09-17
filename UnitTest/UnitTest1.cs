@@ -31,5 +31,31 @@ namespace UnitTest
             // Assert
             Assert.AreEqual(240, price);
         }
+
+        [TestMethod]
+        public void TestMCName()
+        {
+            // Arrange
+            Motorcykel mc = new Motorcykel();
+
+            // Act
+            string name = mc.Køretøj();
+
+            // Assert
+            Assert.AreEqual("MC", name);
+        }
+
+        [TestMethod]
+        public void TestMCPrice()
+        {
+            // Arrange
+            Motorcykel mc = new Motorcykel();
+
+            // Act
+            decimal price = mc.Pris();
+
+            // Assert
+            Assert.AreEqual(125, price);
+        }
     }
 }
