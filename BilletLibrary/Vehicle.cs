@@ -37,6 +37,11 @@ namespace BilletLibrary
         public DateTime Dato { get; set; }
 
         /// <summary>
+        /// Er Brobizz brugt til betaling?
+        /// </summary>
+        public bool Brobizz { get; set; }
+
+        /// <summary>
         /// Default constructor
         /// </summary>
         public Vehicle()
@@ -53,6 +58,19 @@ namespace BilletLibrary
 
             this.Nummerplade = nummplade;
             this.Dato = dato;
+            this.Brobizz = false;
+        }
+
+        public Vehicle(string nummplade, DateTime dato, bool brobizz)
+        {
+            if (nummplade.Length > 7)
+            {
+                throw new Exception("Nummerplade må ikke være på mere end 7 tegn");
+            }
+
+            this.Nummerplade = nummplade;
+            this.Dato = dato;
+            this.Brobizz = brobizz;
         }
     }
 }

@@ -11,6 +11,11 @@ namespace BilletLibrary
 
         }
 
+        public Bil(string nummerplade, DateTime dato, bool brobizz) : base(nummerplade, dato, brobizz)
+        {
+
+        }
+
         // Methods
 
         /// <summary>
@@ -19,6 +24,10 @@ namespace BilletLibrary
         /// <returns></returns>
         public override decimal Pris()
         {
+            if(Brobizz)
+            {
+                return (240 - (240 * 0.05m));
+            }
             return 240;
         }
         
