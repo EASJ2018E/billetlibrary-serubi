@@ -46,6 +46,11 @@ namespace BilletLibrary
 
         public Vehicle(string nummplade, DateTime dato)
         {
+            if(nummplade.Length > 7)
+            {
+                throw new Exception("Nummerplade må ikke være på mere end 7 tegn");
+            }
+
             this.Nummerplade = nummplade;
             this.Dato = dato;
         }

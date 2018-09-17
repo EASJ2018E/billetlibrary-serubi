@@ -58,5 +58,16 @@ namespace UnitTest
             // Assert
             Assert.AreEqual(125, price);
         }
+
+        [TestMethod]
+        public void TestNummerpladeLengthException()
+        {
+            // Arrange
+
+            // Act
+
+            // Assert
+            Assert.ThrowsException<Exception>(() => new Bil("12345678", DateTime.Now));
+        }
     }
 }

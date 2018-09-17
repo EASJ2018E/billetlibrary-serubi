@@ -21,15 +21,6 @@ namespace BilletLibrary
         {
             return 240;
         }
-
-        /// <summary>
-        /// Get vehicle type name
-        /// </summary>
-        /// <returns></returns>
-        public override string Køretøj()
-        {
-            return "Bil";
-        }
         
     }
 }
