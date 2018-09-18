@@ -49,26 +49,37 @@ namespace BilletLibrary
 
         }
 
-        public Vehicle(string nummplade, DateTime dato)
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="nummerplade">Nummerplade på max 7 tegn</param>
+        /// <param name="dato">Dato køretøjet kørte over broen</param>
+        public Vehicle(string nummerplade, DateTime dato)
         {
-            if(nummplade.Length > 7)
+            if(nummerplade.Length > 7)
             {
                 throw new Exception("Nummerplade må ikke være på mere end 7 tegn");
             }
 
-            this.Nummerplade = nummplade;
+            this.Nummerplade = nummerplade;
             this.Dato = dato;
             this.Brobizz = false;
         }
 
-        public Vehicle(string nummplade, DateTime dato, bool brobizz)
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="nummerplade">Nummerplade på max 7 tegn</param>
+        /// <param name="dato">Dato køretøjet kørte over broen</param>
+        /// <param name="brobizz">Om Brobizz blev brugt til betaling</param>
+        public Vehicle(string nummerplade, DateTime dato, bool brobizz)
         {
-            if (nummplade.Length > 7)
+            if (nummerplade.Length > 7)
             {
                 throw new Exception("Nummerplade må ikke være på mere end 7 tegn");
             }
 
-            this.Nummerplade = nummplade;
+            this.Nummerplade = nummerplade;
             this.Dato = dato;
             this.Brobizz = brobizz;
         }

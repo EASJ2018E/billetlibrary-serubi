@@ -7,3 +7,4 @@ C:\source\BilletLibrary\billetlibrary-serubi\BilletLibrary\obj\Debug\netcoreapp2
 C:\source\BilletLibrary\billetlibrary-serubi\BilletLibrary\obj\Debug\netcoreapp2.0\BilletLibrary.AssemblyInfo.cs
 C:\source\BilletLibrary\billetlibrary-serubi\BilletLibrary\obj\Debug\netcoreapp2.0\BilletLibrary.dll
 C:\source\BilletLibrary\billetlibrary-serubi\BilletLibrary\obj\Debug\netcoreapp2.0\BilletLibrary.pdb
+C:\source\BilletLibrary\billetlibrary-serubi\BilletLibrary\bin\Debug\netcoreapp2.0\BilletLibrary.xml
