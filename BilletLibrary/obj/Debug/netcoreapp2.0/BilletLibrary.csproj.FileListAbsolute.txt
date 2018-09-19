@@ -8,3 +8,13 @@ C:\source\BilletLibrary\billetlibrary-serubi\BilletLibrary\obj\Debug\netcoreapp2
 C:\source\BilletLibrary\billetlibrary-serubi\BilletLibrary\obj\Debug\netcoreapp2.0\BilletLibrary.dll
 C:\source\BilletLibrary\billetlibrary-serubi\BilletLibrary\obj\Debug\netcoreapp2.0\BilletLibrary.pdb
 C:\source\BilletLibrary\billetlibrary-serubi\BilletLibrary\bin\Debug\netcoreapp2.0\BilletLibrary.xml
+C:\Users\Arlin\source\gitRepos\billetlibrary-serubi\BilletLibrary\bin\Debug\netcoreapp2.0\BilletLibrary.xml
+C:\Users\Arlin\source\gitRepos\billetlibrary-serubi\BilletLibrary\bin\Debug\netcoreapp2.0\BilletLibrary.deps.json
+C:\Users\Arlin\source\gitRepos\billetlibrary-serubi\BilletLibrary\bin\Debug\netcoreapp2.0\BilletLibrary.dll
+C:\Users\Arlin\source\gitRepos\billetlibrary-serubi\BilletLibrary\bin\Debug\netcoreapp2.0\BilletLibrary.pdb
+C:\Users\Arlin\source\gitRepos\billetlibrary-serubi\BilletLibrary\obj\Debug\netcoreapp2.0\BilletLibrary.csprojAssemblyReference.cache
+C:\Users\Arlin\source\gitRepos\billetlibrary-serubi\BilletLibrary\obj\Debug\netcoreapp2.0\BilletLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Arlin\source\gitRepos\billetlibrary-serubi\BilletLibrary\obj\Debug\netcoreapp2.0\BilletLibrary.AssemblyInfoInputs.cache
+C:\Users\Arlin\source\gitRepos\billetlibrary-serubi\BilletLibrary\obj\Debug\netcoreapp2.0\BilletLibrary.AssemblyInfo.cs
+C:\Users\Arlin\source\gitRepos\billetlibrary-serubi\BilletLibrary\obj\Debug\netcoreapp2.0\BilletLibrary.dll
+C:\Users\Arlin\source\gitRepos\billetlibrary-serubi\BilletLibrary\obj\Debug\netcoreapp2.0\BilletLibrary.pdb

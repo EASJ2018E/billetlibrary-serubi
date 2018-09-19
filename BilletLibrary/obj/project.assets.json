@@ -664,27 +664,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\serubi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\Arlin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\BilletLibrary\\billetlibrary-serubi\\BilletLibrary\\BilletLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\Arlin\\source\\gitRepos\\billetlibrary-serubi\\BilletLibrary\\BilletLibrary.csproj",
       "projectName": "BilletLibrary",
-      "projectPath": "C:\\source\\BilletLibrary\\billetlibrary-serubi\\BilletLibrary\\BilletLibrary.csproj",
-      "packagesPath": "C:\\Users\\serubi\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\BilletLibrary\\billetlibrary-serubi\\BilletLibrary\\obj\\",
+      "projectPath": "C:\\Users\\Arlin\\source\\gitRepos\\billetlibrary-serubi\\BilletLibrary\\BilletLibrary.csproj",
+      "packagesPath": "C:\\Users\\Arlin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Arlin\\source\\gitRepos\\billetlibrary-serubi\\BilletLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\serubi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\Arlin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

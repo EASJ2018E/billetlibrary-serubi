@@ -5,7 +5,7 @@ using System;
 namespace UnitTest
 {
     [TestClass]
-    public class UnitTest1
+    public class BilTest
     {
         [TestMethod]
         public void TestBilName()
@@ -33,31 +33,6 @@ namespace UnitTest
             Assert.AreEqual(240, price);
         }
 
-        [TestMethod]
-        public void TestMCName()
-        {
-            // Arrange
-            Motorcykel mc = new Motorcykel("1234", DateTime.Now);
-
-            // Act
-            string name = mc.Køretøj();
-
-            // Assert
-            Assert.AreEqual("MC", name);
-        }
-
-        [TestMethod]
-        public void TestMCPrice()
-        {
-            // Arrange
-            Motorcykel mc = new Motorcykel("1234", DateTime.Now);
-
-            // Act
-            decimal price = mc.Pris();
-
-            // Assert
-            Assert.AreEqual(125, price);
-        }
 
         [TestMethod]
         public void TestNummerpladeLengthException()
